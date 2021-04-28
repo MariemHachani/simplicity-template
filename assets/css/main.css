@@ -1,0 +1,146 @@
+html,
+body {
+    height: 100vh;
+    background: radial-gradient(rgb(192, 189, 189), rgb(82, 80, 80));
+}
+
+.navbar-text {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-collapse {
+    flex-grow: unset !important;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg {
+        justify-content: space-between !important;
+    }
+}
+
+.navbar-text:hover,
+.nav-link:hover {
+    text-decoration: none;
+    color: rgb(226, 171, 108);
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.description {}
+
+.text-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-title {
+    color: rgb(241, 241, 241);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100;
+}
+
+.text-details {
+    width: 700px;
+    color: rgb(241, 241, 241);
+    text-align: center;
+}
+
+.footer {
+    color: rgb(241, 241, 241);
+    font-size: small;
+    margin: 20px;
+}
+
+.slides {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 15px;
+
+}
+
+.slide-content {
+    height: 150px;
+    width: 250px;
+    background: #111;
+    box-shadow: 3px 5px 20px rgb(114, 113, 113);
+}
+
+.slide p {
+    color: rgb(241, 241, 241);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.slide-img {
+    height: 100%;
+    width: 100%;
+    opacity: 70%;  
+    object-fit: cover; 
+    border-radius: 3px;
+
+}
+
+
+.slide-display-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    margin-top: -150px;
+}
+
+.slide-display-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    margin-top: -150px;
+}
+
+.slide-display-3 {
+    position: relative;
+    margin-top: -150px;
+}
+
+.slide-display-4 {
+    position: relative;
+    margin-top: -150px;
+}
+
+.slide-display-5 {
+    position: relative;
+    margin-top: -150px;
+}
+
+.slide-display-6 {
+    position: relative;
+    margin-top: -150px;
+}
